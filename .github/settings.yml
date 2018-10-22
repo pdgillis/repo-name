@@ -58,9 +58,4 @@ teams:
   - name: docs
     permission: push
 
-eliza-brach-protections:
-    -pattern: master
-     isAdminEnforced: true
-     dismissStaleReviews: true
-
      
