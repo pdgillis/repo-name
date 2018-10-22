@@ -37,25 +37,3 @@ repository:
   # rebase-merging.
   allow_rebase_merge: true
 
-# Collaborators: give specific users access to this repository.
-collaborators:
-  - username: bkeepers
-    # Note: Only valid on organization-owned repositories.
-    # The permission to grant the collaborator. Can be one of:
-    # * `pull` - can pull, but not push to or administer this repository.
-    # * `push` - can pull and push, but not administer this repository.
-    # * `admin` - can pull, push and administer this repository.
-    permission: push
-
-  - username: hubot
-    permission: pull
-
-# NOTE: The APIs needed for teams are not supported yet by GitHub Apps
-# https://developer.github.com/v3/apps/available-endpoints/
-teams:
-  - name: core
-    permission: admin
-  - name: docs
-    permission: push
-
-     
