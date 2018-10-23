@@ -5,7 +5,7 @@ repository:
   name: repo-name2
 
   # A short description of the repository that will show up on GitHub
-  description: description of repo
+  description: pat wuz here
 
   # A URL with more information about the repository
   homepage: https://example.github.io/
@@ -35,4 +35,4 @@ repository:
 
   # Either `true` to allow rebase-merging pull requests, or `false` to prevent
   # rebase-merging.
-  allow_rebase_merge: true
+  allow_rebase_merge: false
